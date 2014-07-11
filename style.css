@@ -1,0 +1,108 @@
+/*
+Theme Name: Tedx
+Theme URI: http://underscores.me/
+Author: Panasall Dev
+Author URI: http://www.panasall.com
+Description: Tedx Wordpress Template
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Text Domain: tedx
+Domain Path: /languages/
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+ Tedx is based on Underscores http://underscores.me/, (C) 2012-2013 Automattic, Inc.
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+
+
+
+/* Alignment */
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 0 auto;
+}
+
+
+/* =Widgets
+----------------------------------------------- */
+
+.widget {
+	margin: 0 0 1.5em;
+}
+
+/* Make sure select elements fit in widgets */
+.widget select {
+	max-width: 100%;
+}
+
+/* Search widget */
+.widget_search .search-submit {
+	display: none;
+}
+
+.btn.btn-primary.redbutton {
+    background-color: #FF2B06;
+    border-color: #FF2B06;
+    border-radius: 0 0 0 0;
+    color: #FFFFFF;
+    font-family: 'Conv_TradeGothic-Bold';
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 6px 23px 10px;
+}
+
+.navbar-collapse{max-height: 2000px;}
+.menutext{display: none;}
+.navbar-default .navbar-nav > .dropdown > a .caret{display: inline-block !important;}
+.dropdown:hover .dropdown-menu{display: none;}
+.dropdown.open:hover .dropdown-menu{display: block;}
+
+@media screen and (min-width: 768px) {
+.navbar-default .navbar-nav > li.open > a.dropdown-toggle .caret{
+	background-image: url(http://www.tedxamericasfinestcity.com/wp-content/uploads/2014/05/close.png);	
+}
+
+}
+@media screen and (max-width: 767px) {
+html {overflow-x:hidden;}
+/*.nav > li { height: 40px;overflow-y: hidden;}*/
+.menutext {
+display: block; 
+line-height: 50px;
+padding: 0 20px 0 10px;
+float: left;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+font-weight: bold;
+text-transform: uppercase;
+color: #666;
+}
+
+.navbar-default .navbar-nav > li > a{padding: 24px 8px 15px 10px;}
+.navbar-nav .open .dropdown-menu > li > a, .navbar-nav .open .dropdown-menu .dropdown-header{
+padding: 5px 15px 5px 10px;
+}
+.navbar-default .navbar-nav > li.open > a.dropdown-toggle .caret{
+	background-image: url(http://www.tedxamericasfinestcity.com/wp-content/uploads/2014/05/close.png);
+}
+}

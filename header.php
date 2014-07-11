@@ -88,10 +88,10 @@
 								}
 							}
 							preload(
-								"<?php bloginfo('template-url'); ?>/images/facebook-hover.png",
-								"<?php bloginfo('template-url'); ?>/images/twitter-hover.png",
-								"<?php bloginfo('template-url'); ?>/images/google-hover.png",
-								"<?php bloginfo('template-url'); ?>/images/cam-hover.png"
+								"<?php echo get_template_directory_uri(); ?>/images/facebook-hover.png",
+								"<?php echo get_template_directory_uri(); ?>/images/twitter-hover.png",
+								"<?php echo get_template_directory_uri(); ?>/images/google-hover.png",
+								"<?php echo get_template_directory_uri(); ?>/images/cam-hover.png"
 							)
 						//--><!]]>
 					</script>

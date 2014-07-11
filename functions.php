@@ -147,6 +147,8 @@ add_action( 'widgets_init', 'tedx_widgets_init' );
 function tedx_scripts() {
 	wp_enqueue_style( 'tedx-style', get_stylesheet_uri() );
 
+	wp_enqueue_style( 'tedx-js-composer', plugins_url() . '/js_composer/assets/css/js_composer_front.css' );
+
 	wp_enqueue_script( 'tedx-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
 	wp_enqueue_script( 'tedx-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
